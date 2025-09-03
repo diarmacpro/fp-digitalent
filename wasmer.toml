@@ -1,5 +1,5 @@
 [package]
-name = "hello-go"
+name = "main-go"
 version = "0.1.0"
 description = "Hello World Go 1.24.5 on Wasmer"
 readme = "README.md"
@@ -7,5 +7,5 @@ readme = "README.md"
 [dependencies]
 
 [[command]]
-name = "hello"
-module = "hello.wasm"
+name = "main"
+module = "main.wasm"
